@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+p,a{
+  margin:0;
+  padding:0;
+}
+/* ---- typography ---- */
+
+a {
+  color:darkblue;
+  text-decoration:none;
+}

@@ -1,0 +1,10 @@
+.navbar{
+  height:3em;
+  background-color: lavender;
+  padding:1em;
+}
+
+.component-wrapper{
+  margin:0 5%;
+  text-align: center;
+}

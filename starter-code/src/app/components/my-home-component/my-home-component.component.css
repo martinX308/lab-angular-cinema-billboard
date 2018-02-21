@@ -1,0 +1,16 @@
+.movie-collection{
+  display:flex;
+  flex-direction: row;
+  color:darkblue;
+}
+.movie-collection li {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  width: 8%;
+  margin-right: 0.5em;
+  align-content: center;
+}
+.movie-collection li img {
+  width:100%;
+}

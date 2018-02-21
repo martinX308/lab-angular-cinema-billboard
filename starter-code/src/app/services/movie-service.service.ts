@@ -106,6 +106,6 @@ export class MovieServiceService {
   }
 
   getMovie(id) {
-    return this.movies[id];
+    return this.movies.find(element => element["id"] === id);
   }
 }
