@@ -15,7 +15,7 @@ import{MovieServiceService} from './services/movie-service.service';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home',  component: MyHomeComponentComponent },
-  { path: '/movie/:id', component: MyMovieComponentComponent }
+  { path: 'movie/:id', component: MyMovieComponentComponent }
 ];
 
 
